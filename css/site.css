@@ -1,0 +1,19 @@
+/*
+color pallette
+
+https://colorhunt.co/palette/155241
+
+f0dd92
+ffffc5
+d6e4aa
+83b582
+
+*/
+
+:root {
+    --bg: #f0dd92;
+}
+
+body {
+    background-color: var(--bg);
+}
