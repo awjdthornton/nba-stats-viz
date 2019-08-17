@@ -3,17 +3,77 @@ color pallette
 
 https://colorhunt.co/palette/155241
 
-f0dd92
-ffffc5
-d6e4aa
-83b582
+#f0dd92
+#ffffc5
+#d6e4aa
+#83b582
 
 */
 
 :root {
-    --bg: #f0dd92;
+    --bg: whitesmoke;
 }
 
 body {
     background-color: var(--bg);
+    font-family: 'Quicksand', sans-serif;
 }
+
+.VizContainer {
+    width: 80%;
+    height: 600px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    background-color: #f0dd92;
+    display: grid;
+    grid-template-rows: auto 10fr auto;
+    grid-template-columns: repeat(32, 1fr);
+    grid-gap: 5px 2px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+}
+
+.VizContainer * {
+/*    border: 1px solid black;*/
+    text-align: center;
+}
+
+.VizContainer h1 {
+    grid-row: 1;
+    grid-column: 1 / span 32;
+    background-color: #83b582;
+    margin: 0;
+    padding: 20px 0px;
+    box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.5);
+}
+
+.Viz-data {
+    grid-row: 2;
+    grid-column: auto;
+    align-self: end;
+    justify-self: center;
+    min-width: 80%;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+    font-size: 1vw;
+
+}
+
+.Viz-regular {
+    background-color: #ffffc5;
+}
+
+.Viz-playoff {
+    background-color: #d6e4aa;
+}
+
+.Viz-team {
+    grid-row: 3;
+    grid-column: span 2;
+    justify-self: center;
+    padding: 10px 1px;
+    font-size: 1.5vw;
+}
+
+
+/*@media at certain width increase .VizContainer width to auto or 100%*/
