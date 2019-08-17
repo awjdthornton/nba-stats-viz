@@ -39,7 +39,6 @@ body {
 }
 
 .VizContainer * {
-/*    border: 1px solid black;*/
     text-align: center;
 }
 
@@ -79,7 +78,6 @@ body {
     grid-row:2;
 }
 
-
 .Viz-regular {
     background-color: #ffffc5;
 }
@@ -99,9 +97,7 @@ body {
     grid-row: 3;
 }
 
-
-/*@media at certain width increase .VizContainer width to auto or 100%*/
-
+/*@media at certain width increase .VizContainer width to 100%*/
 @media only screen and (max-width: 800px) {
 .VizContainer {
     width: 100%;
