@@ -6,126 +6,99 @@
 
       <title>NBA Stats Viz</title>
 
-      <link rel="stylesheet" href="css/site.css">
+      <link rel="stylesheet" href="css/site2.css">
       <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 
     </head>
     <body>
-        <div class="VizContainer">
-            <h1>2018-19 NBA Regular Season vs. Playoffs Winning %</h1>
+        <div class="Viz">
+            <div class="Viz-header">
+                <h1>2018-19 NBA Regular Season vs. Playoffs Winning %</h1>
+            </div>
             <!--add 10% to winning percentage to scale everything up    -->
-            <div class="Viz-wrapper" onClick="alert('MIL won 6% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 83%">73</div>
-                <div class="Viz-data Viz-playoff" style="height: 77%">67</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">MIL</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper"  onClick="alert('TOR won 4% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 81%">71</div>
-                <div class="Viz-data Viz-playoff" style="height: 77%">67</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">TOR</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('GSW won 6% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 80%">70</div>
-                <div class="Viz-data Viz-playoff" style="height: 74%">64</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">GSW</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('PHI won 4% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 72%">62</div>
-                <div class="Viz-data Viz-playoff" style="height: 68%">58</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">PHI</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('BOS won 4% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 70%">60</div>
-                <div class="Viz-data Viz-playoff" style="height: 66%">56</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">BOS</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('HOU won 10% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 75%">65</div>
-                <div class="Viz-data Viz-playoff" style="height: 65%">55</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">HOU</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('DEN won 16% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 76%">66</div>
-                <div class="Viz-data Viz-playoff" style="height: 60%">50</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">DEN</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('POR won 15% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 75%">65</div>
-                <div class="Viz-data Viz-playoff" style="height: 60%">50</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">POR</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('MIL won 16% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 69%">59</div>
-                <div class="Viz-data Viz-playoff" style="height: 53%">43</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">SAS</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('LAC won 26% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 69%">59</div>
-                <div class="Viz-data Viz-playoff" style="height: 43%">33</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">LAC</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('MIL won 31% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 61%">51</div>
-                <div class="Viz-data Viz-playoff" style="height: 30%">20</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">BKN</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('OKC won 40% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 70%">60</div>
-                <div class="Viz-data Viz-playoff" style="height: 30%">20</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">OKC</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('ORL won 31% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 61%">51</div>
-                <div class="Viz-data Viz-playoff" style="height: 30%">20</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">ORL</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('UTA won 41% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 71%">61</div>
-                <div class="Viz-data Viz-playoff" style="height: 30%">20</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">UTA</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('DET won 50% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 60%">50</div>
-                <div class="Viz-data Viz-playoff" style="height: 10%">0</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">DET</div>
-                <div class="Viz-teamGap"></div>
-            </div>
-            <div class="Viz-wrapper" onClick="alert('IND won 59% fewer of their games during the playoffs.')">
-                <div class="Viz-data Viz-regular" style="height: 69%">59</div>
-                <div class="Viz-data Viz-playoff" style="height: 10%">0</div>
-                <div class="Viz-dataGap"></div>
-                <div class="Viz-team">IND</div>
-                <div class="Viz-teamGap"></div>
+            <div class="Viz-wrapper">
+                <div class="Viz-item" onClick="alert('MIL won 6% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 73%">73</div>
+                    <div class="Viz-data Viz-playoff" style="height: 67%">67</div>
+                    <div class="Viz-label">MIL</div>
+                </div>
+                <div class="Viz-item"  onClick="alert('TOR won 4% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 71%">71</div>
+                    <div class="Viz-data Viz-playoff" style="height: 67%">67</div>
+                    <div class="Viz-label">TOR</div>
+                </div>
+                <div class="Viz-item" onClick="alert('GSW won 6% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 70%">70</div>
+                    <div class="Viz-data Viz-playoff" style="height: 64%">64</div>
+                    <div class="Viz-label">GSW</div>
+                </div>
+                <div class="Viz-item" onClick="alert('PHI won 4% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 62%">62</div>
+                    <div class="Viz-data Viz-playoff" style="height: 58%">58</div>
+                    <div class="Viz-label">PHI</div>
+                </div>
+                <div class="Viz-item" onClick="alert('BOS won 4% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 60%">60</div>
+                    <div class="Viz-data Viz-playoff" style="height: 56%">56</div>
+                    <div class="Viz-label">BOS</div>
+                </div>
+                <div class="Viz-item" onClick="alert('HOU won 10% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 65%">65</div>
+                    <div class="Viz-data Viz-playoff" style="height: 55%">55</div>
+                    <div class="Viz-label">HOU</div>
+                </div>
+                <div class="Viz-item" onClick="alert('DEN won 16% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 66%">66</div>
+                    <div class="Viz-data Viz-playoff" style="height: 50%">50</div>
+                    <div class="Viz-label">DEN</div>
+                </div>
+                <div class="Viz-item" onClick="alert('POR won 15% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 65%">65</div>
+                    <div class="Viz-data Viz-playoff" style="height: 50%">50</div>
+                    <div class="Viz-label">POR</div>
+                </div>
+                <div class="Viz-item" onClick="alert('SAS won 16% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 59%">59</div>
+                    <div class="Viz-data Viz-playoff" style="height: 43%">43</div>
+                    <div class="Viz-label">SAS</div>
+                </div>
+                <div class="Viz-item" onClick="alert('LAC won 26% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 59%">59</div>
+                    <div class="Viz-data Viz-playoff" style="height: 33%">33</div>
+                    <div class="Viz-label">LAC</div>
+                </div>
+                <div class="Viz-item" onClick="alert('BKN won 31% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 51%">51</div>
+                    <div class="Viz-data Viz-playoff" style="height: 20%">20</div>
+                    <div class="Viz-label">BKN</div>
+                </div>
+                <div class="Viz-item" onClick="alert('OKC won 40% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 60%">60</div>
+                    <div class="Viz-data Viz-playoff" style="height: 20%">20</div>
+                    <div class="Viz-label">OKC</div>
+                </div>
+                <div class="Viz-item" onClick="alert('ORL won 31% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 51%">51</div>
+                    <div class="Viz-data Viz-playoff" style="height: 20%">20</div>
+                    <div class="Viz-label">ORL</div>
+                </div>
+                <div class="Viz-item" onClick="alert('UTA won 41% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 61%">61</div>
+                    <div class="Viz-data Viz-playoff" style="height: 20%">20</div>
+                    <div class="Viz-label">UTA</div>
+                </div>
+                <div class="Viz-item" onClick="alert('DET won 50% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 50%">50</div>
+                    <div class="Viz-data Viz-playoff" style="height: 0%">0</div>
+                    <div class="Viz-label">DET</div>
+                </div>
+                <div class="Viz-item" onClick="alert('IND won 59% fewer of their games during the playoffs.')">
+                    <div class="Viz-data Viz-regular" style="height: 59%">59</div>
+                    <div class="Viz-data Viz-playoff" style="height: 0%">0</div>
+                    <div class="Viz-label">IND</div>
+                </div>
             </div>
         </div>
     </body>
 </html>
+
